@@ -1,0 +1,111 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: rgb(245, 225, 225);
+    
+    
+}
+.img
+{
+    width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/home.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav
+{
+    display: flex;
+    background-color: rgb(155, 21, 21);
+    border-bottom: 2px black dotted;
+}
+
+.logo
+{
+    
+    cursor: pointer;
+    width: 80px;
+    height: auto;
+    margin: 25px;
+  
+}
+
+.menyt
+{
+    list-style: none;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+.menyt li 
+{
+    display: inline-block;
+    padding: 0 20px;
+
+    
+}
+
+.menyt li a 
+{
+    transition: all 0.5s ease 0 ;
+    color: white;
+    text-decoration: none;
+}
+
+.menyt li a:hover 
+{
+    color: rgb(229, 240, 137);
+}
+.logout
+{
+    margin-left: 140px;
+}
+.open
+{
+    background-color: rgb(80, 51, 51);
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+
+.dy
+{
+    display: inline;
+    margin: auto;
+}
+
+
+.pika
+{
+    border: 2px black ;
+    border-style: dashed;
+    margin: 40px;
+    padding: 30px;
+    width: auto;
+    color: rgb(46, 6, 99);
+    text-align: center;
+}
+
+.buttoni
+{
+    padding: 20px;
+    border-radius: 15px;
+    align-items: flex-end;
+    margin-top: 250px;
+    margin-left: 900px;
+    color: wheat;
+    
+}
+.buttoni:hover{
+    background-color: rebeccapurple;
+    color: white;
+}

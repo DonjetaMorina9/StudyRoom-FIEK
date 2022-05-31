@@ -1,0 +1,74 @@
+body
+{
+    background: rgb(245, 225, 225)
+    
+}
+.queston
+{
+    width:  66%;
+    height: auto;
+    margin: 50px  auto;
+    border: 6px black ;
+    border-style: double;
+    padding: 15px;
+   
+}
+
+p{
+    margin-top: 15px;
+}
+
+.form-control{
+    box-shadow:none;
+    border-radius:0;
+    border-color:#ccc;
+    border-style:none none solid none;
+    width:65%;
+    font-size:1.25em;
+    transition:all .6s;
+}
+.form-control::placeholder{
+    color:#aaa;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+.form-group:focus-within{
+    transform:scale(1.1,1.1);
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+}
+.form-control:valid:focus{
+    border-color:green;
+}
+
+.btn{
+    background: 0 0 rgb(202, 116, 116);
+    border:1px solid rgb(153, 45, 45);
+    border-radius:3px;
+    padding: 10px;
+    color:var(--font-color);
+    margin: 20px;
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+textarea{
+    resize:none;
+}
+
+
+
+.focused > .form-label{
+    opacity:1;
+    transform:translateX(0px);
+
+}
